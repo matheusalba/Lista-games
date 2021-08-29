@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  /*font-family: Avenir, Helvetica, Arial, sans-serif;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -9,7 +9,14 @@
   
 }
 *{
-  font-family:  "Hina Mincho";
-  background-color: black;
-  color:white;
+  font-family:  "STIX Two Math";
+  color:black;
+}
+table{
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+table,tr,td{
+  border: white 1px solid;
+  border-radius: 3px;
 }
